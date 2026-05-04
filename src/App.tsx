@@ -32,7 +32,7 @@ interface VetResult {
 
 export default function App() {
   const [helloBar, setHelloBar] = useState('');
-  const [salesPageUrlInput, setSalesPageUrlInput] = useState('https://bonniefahy.com/asc-ai-twin');
+  const [salesPageUrlInput, setSalesPageUrlInput] = useState('https://bonniefahy.com/twin');
   const [html, setHtml] = useState('');
   const [result, setResult] = useState<VetResult | null>(null);
   const [loading, setLoading] = useState(false);
@@ -211,7 +211,7 @@ export default function App() {
                   <textarea
                     value={salesPageUrlInput}
                     onChange={(e) => setSalesPageUrlInput(e.target.value)}
-                    placeholder="https://yourpage.com/sales"
+                    placeholder="https://bonniefahy.com/twin"
                     className="w-full bg-[#161922] border border-[#1c2030] rounded-xl p-4 focus:outline-none focus:border-[#5b8def]/50 focus:ring-1 focus:ring-[#5b8def]/50 transition-all font-mono text-sm placeholder:text-gray-700 min-h-[80px] resize-y"
                   />
                 </div>

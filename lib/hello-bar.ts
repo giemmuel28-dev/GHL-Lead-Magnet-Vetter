@@ -3,7 +3,7 @@
  */
 
 // Hardcoded constant as requested
-export const SALES_PAGE_URL = 'https://bonniefahy.com/asc-ai-twin';
+export const SALES_PAGE_URL = 'https://bonniefahy.com/twin';
 
 export interface HelloBarData {
   line1: string;
