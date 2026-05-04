@@ -1,0 +1,6 @@
+{
+  "name": "GHL Helper",
+  "description": "A tool to clean and prep styled lead-magnet HTML for GoHighLevel form submission, featuring proxy-form injection and hello-bar payload encoding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
