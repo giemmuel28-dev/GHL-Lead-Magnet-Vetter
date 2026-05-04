@@ -133,10 +133,7 @@ export default function App() {
           </div>
 
           <nav className="space-y-1">
-            <NavItem icon={<LayoutDashboard size={18} />} label="Dashboard" disabled />
-            <NavItem icon={<FileCode size={18} />} label="HTML Vetter" active />
-            <NavItem icon={<Settings size={18} />} label="Settings" disabled />
-            <NavItem icon={<HelpCircle size={18} />} label="Support" disabled />
+            <NavItem icon={<FileCode size={18} />} label="Configure HTML" active />
           </nav>
 
           <div className="mt-auto pt-6 border-t border-[#1c2030] px-2">
@@ -159,7 +156,7 @@ export default function App() {
             >
               {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
-            <h1 className="text-xl font-semibold text-white tracking-tight">GHL Lead Magnet Vetter</h1>
+            <h1 className="text-xl font-semibold text-white tracking-tight"></h1>
           </div>
           <div className="flex items-center gap-3">
             <span className="text-xs text-gray-500 font-mono hidden sm:inline-block">v2.1.0</span>
