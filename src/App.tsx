@@ -127,7 +127,7 @@ export default function App() {
               <ShieldCheck className="text-white w-6 h-6" />
             </div>
             <div>
-              <h2 className="font-bold text-white tracking-tight leading-none mb-1">GHL Toolkit</h2>
+              <h2 className="font-bold text-white tracking-tight leading-none mb-1">GHL Helper</h2>
               <p className="text-[10px] text-gray-500 uppercase tracking-widest font-medium">Powering Funnels</p>
             </div>
           </div>
